@@ -1,0 +1,392 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Navbar */
+#nav-bar {
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar-brand img {
+	height: 60px;
+	padding-left: 30px;
+}
+
+.navbar-nav li {
+	padding: 0 15px;
+}
+
+.navbar-nav li a {
+	float: left;
+	text-align: left;
+}
+
+#nav-bar ul li a:hover {
+	color: #007bff !important;
+}
+
+.navbar {
+	background: #fff;
+}
+
+.navbar-toggler {
+	border: none !important;
+}
+
+.nav-link {
+	color: #555 !important;
+	font-weight: 600;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+/* Jumbotron */
+#jumbotron .jumbotron {
+	height: 540px;
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../img/2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#jumbotron {
+  font-family: Montserrat, sans-serif;
+}
+
+.jumbotron h1 {
+  margin-top: 30px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.jumbotron p {
+  margin-top: 50px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+}
+
+.jumbotron .btn {
+  margin-top: 20px;
+  background: #007bff;
+  text-transform: uppercase;
+  font-weight: 400;
+  border-radius: 20px;
+  padding: 5px 35px; 
+  color: #fff;
+  transition: 0.5s;
+}
+
+.jumbotron .btn:hover {
+  background: #00BFFF;
+}
+
+/* H2 */
+h2 {
+	font-size: 32px;
+	color: #555;
+	text-align: center;
+	font-weight: 700;
+	position: relative;
+	padding-bottom: 20px;
+	padding-top: 25px;
+	margin-top: 20px;
+}
+
+h2::before {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 120px;
+	height: 1px;
+	background: #ddd;
+	bottom: 1px;
+	left: calc(50% - 60px);
+}
+
+h2::after {
+	content: '';
+	position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #007bff;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+/* Download */
+#download .row {
+  margin-top: 30px;
+}
+
+#download img {
+  width: 150px;
+  margin-right: 25px;
+}
+
+#download h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #555;
+  padding-top: 20px;
+}
+
+#download p {
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  color: #555;
+}
+
+#download a img {
+  margin-top: -15px;
+  margin-left: -15px;
+  width: 180px;
+}
+
+/* Cara Kerja */
+#cara {
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+#cara .row {
+  margin-top: 30px;
+}
+
+#cara h2 {
+  color: #fff !important;
+}
+
+#cara .fa {
+  font-size: 40px;
+	margin: 20px auto;
+	padding: 20px;
+	height: 80px;
+	width: 80px;
+	border: 1px solid #fff;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+#cara p {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.container .col-md-3:hover {
+  background: #00BFFF;
+  transition: 0.5s;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* Market Size */
+#market h3 {
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #007bff;
+}
+
+#market p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #555;
+}
+
+#market .btn {
+  margin: 20px auto;
+  background: #007bff;
+  text-transform: uppercase;
+  font-weight: 400;
+  border-radius: 20px;
+  padding: 5px 60px; 
+  color: #fff;
+  transition: 0.5s;
+}
+
+#market .btn:hover {
+  background: #00BFFF;
+}
+
+/* Patner */
+#patner {
+  background: #ddd;
+}
+
+#patner img {
+  width: 200px;
+  padding-bottom: 20px;
+  filter: grayscale(1);
+  transition: 0.5s;
+}
+
+#patner img:hover {
+  filter: grayscale(0);
+  cursor: pointer;
+}
+
+#patner .img-besar {
+  width: 400px;
+  margin-top: 40px;
+}
+
+#patner .row {
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* Testimonial */
+#testimoni .row {
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+#testimoni .img {
+  width: 150px;
+  border-radius: 50%;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+#testimoni .img:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+#testimoni p {
+  font-size: 15px;
+  color: #555;
+  margin-top: 18px;
+}
+
+#testimoni h3 {
+  font-size: 20px;
+  margin-top: 15px;
+  color: #007bff;
+}
+
+.spann span {
+  font-size: 13px;
+  color: #333 !important;
+}
+
+/* Banner */
+#banner {
+  background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url(../img/3.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #efefef !important;
+  background-attachment: fixed;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 200px;
+}
+
+#banner p {
+  padding-top: 10px;
+  font-size: 25px;
+  color: #333;
+}
+
+p span {
+  font-weight: bold;
+}
+
+#banner .btn {
+  margin: 20px auto;
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 400;
+  border: 1px solid #007bff;
+  border-radius: 20px;
+  padding: 5px 60px; 
+  color: #007bff;
+  transition: 0.5s;
+}
+
+#banner .btn:hover {
+  background: #00BFFF;
+  color: #fff;
+  border: none;
+}
+
+/* Contact Us */
+#contact .row {
+  margin-top: 30px;
+}
+
+#contact h3 {
+  font-size: 30px;
+  color: #007bff;
+  font-weight: 700;
+}
+
+.follow {
+  font-size: 16px;
+  padding: 10px 0;
+  color: #555;
+}
+
+.follow i {
+  padding-right: 10px;
+  color: #007bff;
+}
+
+.social-media .fa {
+  font-size: 18px;
+  background: #007bff;
+  color: #fff;
+  padding: 9px 0;
+  margin-top: 20px;
+  margin-right: 5px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 1s;
+}
+
+.social-media .fa:hover {
+    background: #00BFFF;
+}
+
+/* Footer */
+#footer {
+  margin-top: 20px;
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  font-size: 14px;
+}
+
+p span {
+  color: #007bff;
+}
+
+@media (max-width: 767.98px) { 
+
+  .jumbotron h1 {
+    font-size: 45px;
+  }
+
+  .jumbotron p {
+    font-size: 18px;
+  }
+
+  #download img {
+    margin-right: 5px;
+  }
+}
