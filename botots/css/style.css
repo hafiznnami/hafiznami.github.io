@@ -288,7 +288,6 @@ h2::after {
   background-size: cover;
   background-position: center;
   color: #efefef !important;
-  background-attachment: fixed;
   margin-top: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -387,6 +386,17 @@ p span {
   }
 
   #download img {
-    margin-right: 5px;
+    margin-right: 0;
   }
+
+  .social-media .fa {
+    margin-bottom: 20px;
+  }
+
+  #banner p {
+    padding-top: 0;
+  }
+   #banner {
+     padding-bottom: 0;
+   }
 }
